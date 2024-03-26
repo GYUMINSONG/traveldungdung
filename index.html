@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1400">
+  <title>여행둥둥</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/main/favicon.png">
+  <!-- webfont -->
+  <!-- 웹폰트-->
+  <link rel="stylesheet preload" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+
+  <!--css  -->
+  <link rel="stylesheet" href="css/main_style.css">
+  <!-- 달력css -->
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <!-- 달력css -->
+  <!-- swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- AOS CSS-->
+
+</head>
+
+<body>
+  <div id="wrap">
+    <div id="header_wrap">
+      <header>
+        <ul class="gnb">
+          <li>
+            <a href="sub1_aboutus.html">회사소개</a>
+            <div class="blue_hover"></div>
+          </li>
+          <li>
+            <a href="sub2_consulting.html">여행컨설팅</a>
+            <div class="blue_hover"></div>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              <img src="images/main/logo_header.svg" alt="logo">
+            </a>
+          </li>
+          <li>
+            <a href="sub3_package.html">여행상품</a>
+            <div class="blue_hover"></div>
+          </li>
+          <li>
+            <a href="sub4_event.html">고객지원</a>
+            <div class="blue_hover"></div>
+          </li>
+        </ul>
+        <!--submenu-->
+        <div class="submenu">
+
+          <div class="inner_submenu">
+            <ul>
+              <li><a href="sub1_aboutus.html">ABOUT US</a></li>
+            </ul>
+            <ul>
+              <li><a href="sub2_consulting.html">여행컨설팅</a></li>
+              <li><a href="javascript:return false;">여행컨설팅상담</a></li>
+            </ul>
+            <ul>
+              <li></li>
+            </ul>
+            <ul>
+              <li><a href="sub3_package.html">패키지상품</a></li>
+              <li><a href="javascript:return false;">상품문의</a></li>
+            </ul>
+            <ul>
+              <li><a href="sub4_event.html">이벤트 & 혜택</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <!--submenu-->
+
+      </header>
+
+    </div>
+    <!-- banner -->
+    <div id="banner">
+
+      <div class="inner_banner">
+
+        <ul class="fade">
+          <li>
+            <img src="images/main/bg_banner1.jpg" alt="banner1">
+          </li>
+          <li>
+            <img src="images/main/bg_banner2.jpg" alt="banner2">
+          </li>
+          <li>
+            <img src="images/main/bg_banner3.jpg" alt="banner3">
+          </li>
+        </ul>
+      </div>
+
+      <div class="middle_wrap">
+        <div class="banner_text_box">
+          <p class="banner_title bold">
+            가벼운 여행의 시작,
+          </p>
+          <div class="title_secondline">
+            <div data-aos-easing="ease-in-out" data-aos="fade-down" data-aos-anchor-placement="center-bottom"
+              data-aos-duration="1200" data-aos-delay="400" class="banner_img_box">
+              <img src="images/main/logo_banner.svg" alt="logo">
+            </div>
+            <p class="banner_title space bold">
+              에서부터
+            </p>
+          </div>
+          <p data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="700" data-aos-delay="1500"
+            class="banner_subtitle">
+            여행컨설팅, 패키지여행
+          </p>
+        </div>
+
+        <!-- banner_box -->
+        <div class="banner_box">
+          <ul class="banner_contents">
+            <li class="banner_boat">
+              <div class="banner_img_box">
+                <img src="images/main/icon_banner_boat.svg" alt="boat">
+              </div>
+              <div class="search_bar">
+                <form id="where" action="#">
+                  <input id="go" type="text" placeholder="어디로 떠나시나요?">
+                </form>
+              </div>
+            </li>
+            <li class="banner_departure">
+              <div class="banner_img_box">
+                <img src="images/main/icon_banner_departure.svg" alt="departure">
+              </div>
+              <div class="search_bar">
+                <form id="departure" action="#">
+                  <input id="depart" type="text" placeholder="출발지를 입력해주세요.">
+                </form>
+              </div>
+            </li>
+            <li class="banner_calendar">
+              <div class="banner_img_box">
+                <img src="images/main/icon_banner_calendar.svg" alt="calendar">
+              </div>
+              <div class="select">
+                <form id="date" action="#">
+                  <input type="text" id="datepicker" placeholder="날짜를 선택해주세요." class="day">
+                </form>
+              </div>
+            </li>
+          </ul>
+          <a class="search_icon" href="javascript:return false;">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- section1 -->
+    <div id="section1">
+      <div class="section_title fontsize60">
+        <div class="img_wrap">
+          <img src="images/main/logo_section.svg" alt="">
+        </div>
+        <p class="logo_side">
+          BUSINESS
+        </p>
+      </div>
+      <h2 class="fontsize24">
+        쉽게 계획하고 여행할 수 있도록
+      </h2>
+      <p class="fontsize24">
+        당신의 여정에 동행합니다.
+      </p>
+      <ul class="section1_icons">
+        <li>
+          <div class="img_wrap">
+            <div class="normal">
+              <a href="sub2_consulting.html">
+                <img src="images/main/icon_selfmade_product.svg" alt="selfmade">
+                <p class="fontsize30 bold">직접 만드는 여행</p>
+              </a>
+            </div>
+            <div class="hover">
+              <a href="sub2_consulting.html">
+                <img src="images/main/icon_selfmade_product_hover.svg" alt="selfmade">
+                <p class="fontsize30 bold b">직접 만드는 여행</p>
+              </a>
+            </div>
+          </div>
+
+        </li>
+        <li>
+
+          <div class="img_wrap">
+            <div class="normal">
+              <a href="sub3_package.html">
+                <img src="images/main/icon_choice_product.svg" alt="choice_product">
+                <p class="fontsize30 bold">
+                  패키지여행 고르기
+                  </p>
+              </a>
+            </div>
+            <div class="hover">
+              <a href="sub3_package.html">
+                <img src="images/main/icon_choice_product_hover.svg" alt="choice_product">
+                <p class="fontsize30 bold b">
+                  패키지여행 고르기
+                </p>
+              </a>
+
+            </div>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+
+    <!-- section2 -->
+    <div id="section2">
+      <div class="information_wrap">
+        <img src="images/main/icon_information.svg" alt="information">
+      </div>
+      <div class="bluebox fontsize18">
+        <div>
+          <div class="information_on_1">
+            <img src="images/main/icon_information_click.svg" alt="information_click">
+          </div>
+          <div class="information_on_2">
+            <img src="images/main/icon_information_click.svg" alt="information_click">
+          </div>
+          <div class="information_on_3">
+            <img src="images/main/icon_information_click.svg" alt="information_click">
+          </div>
+        </div>
+        <p class="section2_title fontsize60 w bold">여행정보</p>
+        <ul class="category">
+          <li class="on">
+            <span class="category1_button">BEST 해외여행</span>
+          </li>
+          <li>
+            <span class="category2_button">국내여행트랜드</span>
+          </li>
+          <li>
+            <span class="category3_button">트래블뉴스</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- BEST 해외여행 -->
+      <div class="category_wrap">
+        <ul class="section2_contents category1">
+          <li>
+            <a href="javascript:return false;">
+              <div class="img_wrap">
+                <img src="images/main/section2_1_1.jpg" alt="osaka">
+              </div>
+              <div class="text_wrap">
+                <p class="fontsize13 b">패키지여행</p>
+                <p class="fontsize18 bold">해외여행, 오사카 찍고 시작</p>
+                <p class="fontsize13">Osaka, Japan</p>
+                <p class="fontsize21 bold align_right">594,000~</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              <div class="img_wrap">
+                <img src="images/main/section2_1_2.jpg" alt="greece">
+              </div>
+              <div class="text_wrap">
+                <p class="fontsize13 b">패키지여행</p>
+                <p class="fontsize18 bold">한 번뿐인 신혼여행, 그리스에서</p>
+                <p class="fontsize13">Santorini, Grèce</p>
+                <p class="fontsize21 bold align_right">3,110,000~</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              <div class="img_wrap">
+                <img src="images/main/section2_1_3.jpg" alt="dalat">
+              </div>
+              <div class="text_wrap">
+                <p class="fontsize13 b">패키지여행</p>
+                <p class="fontsize18 bold">이번 여행은 달랏, 5박 6일</p>
+                <p class="fontsize13">Dalat, Lâm Đồng, Vietnam</p>
+                <p class="fontsize21 bold align_right">590,000~</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- 국내여행트랜드 -->
+        <ul class="section2_contents category2">
+          <li>
+            <a href="javascript:return false;">
+              <div class="img_wrap">
+                <img src="images/main/section2_2_1.jpg" alt="picture">
+              </div>
+              <div class="text_wrap">
+                <p class="fontsize13 b">패키지여행</p>
+                <p class="fontsize18 bold">한국의 수도, 서울여행</p>
+                <p class="fontsize13 ">Seoul, South korea</p>
+                <p class="fontsize21 bold align_right">169,000~</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              <div class="img_wrap">
+                <img src="images/main/section2_2_2.jpg" alt="picture">
+              </div>
+              <div class="text_wrap">
+                <p class="fontsize13 b">컨설팅상담</p>
+                <p class="fontsize18 bold">BTS 성지투어는 못 참지</p>
+                <p class="fontsize13 ">#bts #Gangwondo, South korea</p>
+                <p class="fontsize21 bold align_right">견적문의 ></p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              <div class="img_wrap">
+                <img src="images/main/section2_2_3.jpg" alt="picture">
+              </div>
+              <div class="text_wrap">
+                <p class="fontsize13 b">컨설팅상담</p>
+                <p class="fontsize18 bold">봉은사 템플스테이</p>
+                <p class="fontsize13 ">Bongeunsa Temple, Seoul, South Korea</p>
+                <p class="fontsize21 bold align_right">일정문의 ></p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- 트래블뉴스 -->
+        <ul class="section2_contents category3">
+          <li>
+            <a href="javascript:return false;">
+              <div class="img_wrap">
+                <img src="images/main/section2_3_1.jpg" alt="picture">
+              </div>
+              <div class="text_wrap">
+                <p class="fontsize13 b">트래블뉴스</p>
+                <p class="fontsize18 bold">이거 없으면 못 떠나요!</p>
+                <p class="fontsize13">#비자#여권#항공권#렌트</p>
+                <p class="fontsize21 bold align_right">more ::</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              <div class="img_wrap">
+                <img src="images/main/section2_3_2.jpg" alt="picture">
+              </div>
+              <div class="text_wrap">
+                <p class="fontsize13 b">트래블뉴스</p>
+                <p class="fontsize18 bold">나라별 방역 지침사항 =ㅁ=</p>
+                <p class="fontsize13">#중국입국#코로나서류#PCR#백신접종증명서</p>
+                <p class="fontsize21 bold align_right">more ::</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              <div class="img_wrap">
+                <img src="images/main/section2_3_3.jpg" alt="picture">
+              </div>
+              <div class="text_wrap">
+                <p class="fontsize13 b">트래블뉴스</p>
+                <p class="fontsize18 bold">해외공항 환승 TIP</p>
+                <p class="fontsize13">#전세계입국규정#출국전정보#국가별비자</p>
+                <p class="fontsize21 bold align_right">more ::</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- section3 -->
+    <div id="section3">
+      <div class="blue_box"></div>
+      <div class="inner_section3">
+        <div class="section_title fontsize60">
+          <p class="logo_side">
+            WHY
+          </p>
+          <div class="img_wrap">
+            <img src="images/main/logo_section.svg" alt="logo">
+          </div>
+
+        </div>
+        <!-- Swiper -->
+        <div class="swiper_wrap">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="review_wrap">
+                  <div class="img_wrap">
+                    <img src="images/main/review_1.jpg" alt="review">
+                  </div>
+                  <div class="text_wrap">
+                    <p>
+                      My dog said "Thumbs up!"
+                    </p>
+                    <p>
+                      This was the first time I had travelled with my dog. treaveldungdung specialises in expert-led
+                      cultural and gulet tours in South korea. Accommodation was comfortable and food excellent. The
+                      expert guide who accompanied us was outstanding - passionate, informative, engaging and
+                      entertaining. The itinerary was very well thought out. I would highly recommend this company to
+                      anyone wanting a fun, relaxed with your dog - they will deliver!
+                    </p>
+                    <p>
+                      Margaret Smith, U.K
+                    </p>
+                  </div>
+                  <div class="bottle_wrap">
+                    <img src="images/main/icon_bottle.svg" alt="bottle">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review_wrap">
+                  <div class="img_wrap">
+                    <img src="images/main/review_2.jpg" alt="review">
+                  </div>
+                  <div class="text_wrap">
+                    <p>
+                      막막했던 아이들과의 여행.
+                    </p>
+                    <p>
+                      여행하는데 여행사가 왜 필요해? 내가 다 계획하면 되지라고 생각했는데 막상 계획하려고 시작했는데 일도 하면서 아이들 물건까지 챙기려니 막막하기도 하고 말도 안 통하는 곳에서
+                      우리 아이들을 안전하게 지킬 수 있을까하는 두려움이 생겨 여행사를 알아보다가 여행둥둥을 알게 됐습니다. 결과적으로는 가이드님도 너무 친절하셨고, 정보가 많으니 경비도 오히려
+                      줄어 너무 가볍고 편안하게 잘 여행했습니다. 여행준비하시는 분들 여행둥둥에서 상담이라도 꼭 받아보시면 후회없으실거에요!
+                    </p>
+                    <p>
+                      조은지
+                    </p>
+                  </div>
+                  <div class="bottle_wrap">
+                    <img src="images/main/icon_bottle.svg" alt="bottle">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review_wrap">
+                  <div class="img_wrap">
+                    <img src="images/main/review_3.jpg" alt="review">
+                  </div>
+                  <div class="text_wrap">
+                    <p>
+                      Amazing days.
+                    </p>
+                    <p>
+                      We really enjoyed seeing the palaces, the changing of the guard and the temple in Seoul. Our trip
+                      to Korea was very nice! The hotels were first rate, the tours were exactly what we wanted and
+                      expected to see and the tour guides were friendly and informative. All the travel arrangements
+                      were great in getting us everywhere that we needed to be on time and in a timely fashion.
+                      Activities were also wonderful.
+                    </p>
+                    <p>
+                      Robert Dainal
+                    </p>
+                  </div>
+                  <div class="bottle_wrap">
+                    <img src="images/main/icon_bottle.svg" alt="bottle">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-- swiper -->
+        <ul class="review_under">
+          <li>
+            <div class="flex_box">
+              <div>
+                <img src="images/main/icon_feather.svg" alt="feather">
+              </div>
+              <p>
+                김애나
+              </p>
+            </div>
+            <p>
+              송규민가이드님 덕분에 여행둥둥 패키지를 통해 첫 홀로 유럽 여행을 무사히 마칠 수 있었습니다. 행복하고 즐거운 추억을 만들 수 있게 해주셔서 이 자리를 빌어 감사 인사를 드립니다:) 힘들 때
+              마다 항상 이 추억을 떠올리면서 힘내보겠습니다.
+            </p>
+            <div class="blue_line"></div>
+          </li>
+          <li>
+            <div class="flex_box">
+              <div>
+                <img src="images/main/icon_feather.svg" alt="feather">
+              </div>
+              <p>
+                이지민
+              </p>
+            </div>
+            <p>
+              먼저 출발한 지인과 여행 중간에 일정을 맞춰야 할 일이 있어서 컨설팅상담을 받고 달랏에 다녀왔는데 억지스러운 요구에도 불편한 기색하나 없이 친절히 상담해주셔서 너무 잘 다녀왔습니다. 다음에
+              또 이용하겠습니다!
+            </p>
+            <div class="blue_line"></div>
+          </li>
+          <li>
+            <div class="flex_box">
+              <div>
+                <img src="images/main/icon_feather.svg" alt="feather">
+              </div>
+              <p>
+                Jacob Brown, U.S
+              </p>
+            </div>
+            <p>
+              Tourdungdung runs a highly professional organization. From his brochure to drop off at the airport to fly
+              home his attention to detail and his consideration for his clients is superb. Excellent :)
+            </p>
+            <div class="blue_line"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- section4 -->
+    <div id="section4">
+      <p class="fontsize60 bold">
+        고객지원
+      </p>
+      <p class="fontsize24">
+        등대처럼 안전한 여행항로를 책임지겠습니다.
+      </p>
+      <ul class="customer_service">
+        <li>
+          <div class="light_1">
+            <img src="images/main/icon_businesstrip_lighthouse.svg" alt="light">
+          </div>
+
+          <a class="normal" href="javascript:return false;">
+            <div class="img_wrap">
+              <img src="images/main/icon_business_trip.svg" alt="business_trip">
+            </div>
+            <p>출장문의</p>
+          </a>
+
+
+          <a class="hover" href="javascript:return false;">
+            <div class="img_wrap">
+              <img src="images/main/icon_business_trip_hover.svg" alt="business_trip">
+            </div>
+            <p>출장문의</p>
+          </a>
+
+
+        </li>
+        <li>
+          <div class="light_2">
+            <img src="images/main/icon_product_inquiry_lighthouse.svg" alt="light">
+          </div>
+          <a class="normal" href="javascript:return false;">
+            <div class="img_wrap">
+              <img src="images/main/icon_product_inquiry.svg" alt="product_inquiry">
+            </div>
+            <p>상품문의</p>
+          </a>
+
+
+          <a class="hover" href="javascript:return false;">
+            <div class="img_wrap">
+              <img src="images/main/icon_product_inquiry_hover.svg" alt="product_inquiry">
+            </div>
+            <p>상품문의</p>
+          </a>
+        </li>
+        <li>
+          <div class="light_3">
+            <img src="images/main/icon_subscribe_lighthouse.svg" alt="light">
+          </div>
+          <a class="normal" href="javascript:return false;">
+            <div class="img_wrap">
+              <img src="images/main/icon_subscribe.svg" alt="subscribe">
+            </div>
+            <p>뉴스구독</p>
+          </a>
+          <a class="hover" href="javascript:return false;">
+            <div class="img_wrap">
+              <img src="images/main/icon_subscribe_hover.svg" alt="subscribe">
+            </div>
+            <p>뉴스구독</p>
+          </a>
+        </li>
+        <li>
+          <div class="light_4">
+            <img src="images/main/icon_event_lighthouse.svg" alt="light">
+          </div>
+          <a class="normal" href="sub4_event.html">
+            <div class="img_wrap">
+              <img src="images/main/icon_event.svg" alt="event">
+            </div>
+            <p>이벤트</p>
+          </a>
+            <a class="hover" href="sub4_event.html">
+              <div class="img_wrap">
+                <img src="images/main/icon_event_hover.svg" alt="event">
+              </div>
+              <p>이벤트</p>
+            </a>
+        </li>
+      </ul>
+    </div>
+    <!-- footer -->
+    <footer class="fontsize14">
+      <div class="inner_footer">
+        <ul class="util">
+          <li>
+            <a href="sub1_aboutus.html">
+              회사소개
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              이용약관
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              <span class="bold">개인정보 처리방침</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              취소 및 환불 정책
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              여행보험
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              온라인제휴안내
+            </a>
+          </li>
+          <li>
+            <a href="javascript:return false;">
+              여행플래너
+            </a>
+          </li>
+        </ul>
+        <div class="text_wrap">
+          <p>
+            상호명 <span class="bold">(주)여행둥둥</span> 대표: 송규민 사업자등록번호 209-81-22449 사업자정보확인 통신판매업신고번호 2024-부산중구-0260 관광사업등록번호
+            : 제2024-3호
+            <br>주소 부산광역시 중구 중앙대로 311 이메일 traveldungdung@gmail.com
+            <br>자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원
+          </p>
+          <p class="bold">
+            *여행둥둥은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+            <br>*부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+          </p>
+          <p class="bold">
+            Copyrightⓒ traveldungdung Corp. All rights reserved.
+          </p>
+        </div>
+        <h1 class="footer_logo">
+          <a href="javascript:return false;">
+            <img src="images/main/logo_footer.svg" alt="logo">
+          </a>
+        </h1>
+      </div>
+    </footer>
+
+  </div>
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/script_main.js"></script>
+  <!-- 달력 js -->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- 달력js -->
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 100,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <!-- section3 swiper -->
+  <!-- aos js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init(5000);
+  </script>
+  <!-- aos js -->
+</body>
+
+</html>
