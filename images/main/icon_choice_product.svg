@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <g id="그룹_2798" data-name="그룹 2798" transform="translate(-1036.728 -2521.834)">
+    <rect id="사각형_366" data-name="사각형 366" width="300" height="300" transform="translate(1036.728 2521.834)" fill="none"/>
+    <g id="그룹_2793" data-name="그룹 2793">
+      <line id="선_210" data-name="선 210" x2="0.072" y2="43.609" transform="translate(1093.315 2551.785)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1626" data-name="패스 1626" d="M1114.523,2586.016l-21.208-34.231-21.208,34.231" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1627" data-name="패스 1627" d="M1039.728,2571.748l23.32,37.015h60.677Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1628" data-name="패스 1628" d="M1147.046,2571.748l-23.32,37.015h-60.677Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+    <g id="그룹_2794" data-name="그룹 2794">
+      <line id="선_211" data-name="선 211" x2="0.072" y2="43.609" transform="translate(1093.315 2734.905)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1629" data-name="패스 1629" d="M1114.523,2769.136l-21.208-34.231-21.208,34.231" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1630" data-name="패스 1630" d="M1039.728,2754.868l23.32,37.015h60.677Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1631" data-name="패스 1631" d="M1147.046,2754.869l-23.32,37.015h-60.677Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+    <g id="그룹_2795" data-name="그룹 2795">
+      <line id="선_212" data-name="선 212" x1="0.072" y2="43.609" transform="translate(1279.924 2551.785)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1632" data-name="패스 1632" d="M1258.788,2586.016,1280,2551.785l21.208,34.231" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1633" data-name="패스 1633" d="M1333.584,2571.748l-23.32,37.015h-60.677Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1634" data-name="패스 1634" d="M1226.266,2571.748l23.32,37.015h60.677Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+    <g id="그룹_2796" data-name="그룹 2796">
+      <line id="선_213" data-name="선 213" x1="0.072" y2="43.609" transform="translate(1279.924 2734.905)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1635" data-name="패스 1635" d="M1258.788,2769.136,1280,2734.905l21.208,34.231" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1636" data-name="패스 1636" d="M1333.584,2754.868l-23.32,37.015h-60.677Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1637" data-name="패스 1637" d="M1226.266,2754.869l23.32,37.015h60.677Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+    <g id="그룹_2797" data-name="그룹 2797">
+      <line id="선_214" data-name="선 214" x2="0.072" y2="43.609" transform="translate(1186.656 2643.345)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1638" data-name="패스 1638" d="M1207.864,2677.576l-21.208-34.231-21.208,34.231" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1639" data-name="패스 1639" d="M1133.068,2663.308l23.32,37.014h60.677Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+      <path id="패스_1640" data-name="패스 1640" d="M1240.387,2663.308l-23.32,37.015h-60.677Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

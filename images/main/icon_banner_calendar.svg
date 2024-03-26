@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="그룹_4949" data-name="그룹 4949" transform="translate(-1031 -737)">
+    <g id="그룹_2682" data-name="그룹 2682" transform="translate(-14 4.504)">
+      <g id="그룹_2678" data-name="그룹 2678" transform="translate(16.997 -0.003)">
+        <g id="그룹_2677" data-name="그룹 2677" transform="translate(1040 743.5)">
+          <g id="사각형_338" data-name="사각형 338" transform="translate(0.003 1.503)" fill="none" stroke="#333" stroke-width="1">
+            <rect width="23" height="23" rx="3" stroke="none"/>
+            <rect x="0.5" y="0.5" width="22" height="22" rx="2.5" fill="none"/>
+          </g>
+          <line id="선_174" data-name="선 174" y2="4.001" transform="translate(5.501)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_179" data-name="선 179" x1="22.005" transform="translate(0.5 8.002)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_175" data-name="선 175" y2="4.001" transform="translate(17.504)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+          <g id="타원_1406" data-name="타원 1406" transform="translate(6.003 9.503)" fill="#fff" stroke="#333" stroke-width="1">
+            <circle cx="6" cy="6" r="6" stroke="none"/>
+            <circle cx="6" cy="6" r="5.5" fill="none"/>
+          </g>
+          <g id="그룹_2685" data-name="그룹 2685">
+            <line id="선_180" data-name="선 180" x1="2" y2="3.001" transform="translate(11.503 13.003)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_181" data-name="선 181" x1="1" y1="1" transform="translate(11.503 16.004)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="사각형_425" data-name="사각형 425" width="46" height="46" transform="translate(1031 737)" fill="none"/>
+  </g>
+</svg>
